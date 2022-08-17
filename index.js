@@ -5,7 +5,7 @@ document.getElementById('btn-submit').addEventListener('click', function () {
   const passwordField = document.getElementById('user-password');
   const passwordOutput = passwordField.value;
   
-  if (emailOutput == 'alvialmahamud@gmail.com' && passwordOutput == 'alvi 555 alvi') {
+  if (emailOutput == 'KINGALVI360@gmail.com' && passwordOutput == 'king alvi devoloper') {
     window.location.href = 'bank.html'
   }
   else {
