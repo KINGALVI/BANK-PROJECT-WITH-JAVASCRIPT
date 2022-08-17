@@ -39,7 +39,7 @@ document.getElementById('btn-Withdraw').addEventListener('click', function () {
   const BalanceTotal =document.getElementById('Balance-amount');
   const BalanceTotalString = BalanceTotal.innerText;
   const BalanceTotalAmount =parseFloat(BalanceTotalString);
-  const BalanceTotalAmountResult=  BalanceTotalAmount+WithdrawTotalAmountResult;
+  const BalanceTotalAmountResult=  BalanceTotalAmount-WithdrawTotalAmountResult;
   BalanceTotal.innerText=BalanceTotalAmountResult;
 
 })
