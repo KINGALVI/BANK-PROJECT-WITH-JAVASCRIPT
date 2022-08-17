@@ -10,20 +10,33 @@
   </head>
 
   <body>
-
-    <script src="index.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <header>
-
+      <h1 class="text-5xl text-center mt-6">Welcome to your <span class="font-semibold text-violet-600">Baap Er
+          Bank</span></h1>
     </header>
 
     <main>
+      <section>
+        <br>
+        <div class="bg-blue-100 w-9/12 h-96 rounded-2xl grid content-center mx-auto d-block">
 
+          <h3 class="pl-5 text-3xl flex content-center text-black font-medium">Please Login</h3>
+          <br>
+          <span class="pl-5"> <input class=" w-9/12 h-14 rounded-2xl text-black px-4" placeholder="Your Email Address"
+              type="email" name="" id="user-email"></span>
+          <br>
+          <br>
+          <span class="pl-5"> <input class=" px-4 w-9/12 h-14 rounded-2xl text-black" type="password"
+              placeholder="Your Password" name="" id="user-password"></span>
+          <br>
+          <span class="pl-5"><button class=" bg-amber-400 px-8 py-3 rounded-2xl font-medium hover:bg-sky-700"
+              id="btn-submit">SUBMIT</button></span>
+        </div>
+      </section>
     </main>
-
-    <footer>
-
-    </footer>
+    <script src="index.js"></script>
 
   </body>
 
