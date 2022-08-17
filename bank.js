@@ -1,5 +1,5 @@
 document.getElementById('btn-Diposit').addEventListener('click', function () {
-  
+
   const DipositInput = document.getElementById('Diposit-field');
   const DipositInputAmountString = DipositInput.value;
   DipositInput.value = '';
@@ -39,7 +39,7 @@ document.getElementById('btn-Withdraw').addEventListener('click', function () {
   const BalanceTotal =document.getElementById('Balance-amount');
   const BalanceTotalString = BalanceTotal.innerText;
   const BalanceTotalAmount =parseFloat(BalanceTotalString);
-  const BalanceTotalAmountResult=  BalanceTotalAmount+DipositTotalAmountResult;
+  const BalanceTotalAmountResult=  BalanceTotalAmount+WithdrawTotalAmountResult;
   BalanceTotal.innerText=BalanceTotalAmountResult;
 
 })
