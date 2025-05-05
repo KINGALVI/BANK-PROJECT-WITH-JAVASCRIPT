@@ -29,4 +29,4 @@ Super Bank is a **dynamic bank transaction management system** built to handle *
 1. **Clone the repository** using:
 
    ```bash
-   git clone https://github.com/yourusername/Super-Bank.git
+   git clone https://github.com/KINGALVI/Super-Bank.git
