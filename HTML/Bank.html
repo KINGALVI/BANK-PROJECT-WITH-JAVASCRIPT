@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../Bank-Logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Super Bank</title>
+</head>
+
+<body>
+  <!-- Header section -->
+  <header class="mb-5">
+    <h1 class="text-6xl text-center mt-6">
+      <span class="font-semibold text-red-600">Super</span> <span class="font-semibold text-violet-600">Bank</span>
+      <!-- Emphasized phrase for engagement -->
+    </h1>
+
+    <h1 class="text-5xl text-center mt-6">
+      Let's Get Some <span class="font-semibold text-violet-600">Money</span> !!
+      <!-- Emphasized phrase for engagement -->
+    </h1>
+  </header>
+
+  <main>
+    <!-- Section for displaying deposit, withdraw, and balance amounts -->
+    <section>
+      <div class="font-semibold text-violet-600 mx-auto w-12/12 grid grid-cols-3 gap-5 p-5">
+
+        <!-- Deposit section -->
+        <div class="rounded-2xl w-12/12 bg-green-500 p-8 text-white">
+          <h4 class="text-2xl">Deposit</h4>
+          <h2 class="text-5xl">$ <span id="Diposit-amount">00</span></h2> <!-- Displays deposit amount dynamically -->
+        </div>
+
+        <!-- Withdraw section -->
+        <div class="rounded-2xl w-12/12 bg-amber-500 p-8 text-white">
+          <h4 class="text-2xl">Withdraw</h4>
+          <h2 class="text-5xl">$ <span id="Withdraw-amount">00</span></h2>
+          <!-- Displays withdrawal amount dynamically -->
+        </div>
+
+        <!-- Balance section -->
+        <div class="rounded-2xl w-12/12 bg-indigo-500 p-8 text-white">
+          <h4 class="text-2xl">Balance</h4>
+          <h2 class="text-5xl">$ <span id="Balance-amount">00</span></h2> <!-- Displays current balance dynamically -->
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Deposit and Withdraw Input Section -->
+  <section class="mt-12">
+    <div class="font-semibold text-violet-600 mx-auto w-12/12 grid grid-cols-2 gap-5 p-5">
+
+      <!-- Deposit Input Field & Button -->
+      <div class="rounded-2xl w-12/12 bg-fuchsia-400 p-8 text-white">
+        <h4 class="text-2xl">Please Deposit</h4>
+        <br>
+        <span class="pl-5">
+          <input class="rounded-2xl w-9/12 h-14 text-black px-4" placeholder="$ Amount You Want To Deposit" type="text"
+            id="Diposit-field">
+        </span>
+        <br><br>
+        <span class="pl-5">
+          <button class="bg-amber-400 px-8 py-3 rounded-2xl font-medium hover:bg-pink-500" id="btn-Diposit">
+            Deposit
+          </button>
+        </span>
+      </div>
+
+      <!-- Withdraw Input Field & Button -->
+      <div class="rounded-2xl w-12/12 bg-sky-400 p-8 text-white">
+        <h4 class="text-2xl">Please Withdraw</h4>
+        <br>
+        <span class="pl-5">
+          <input class="rounded-2xl w-9/12 h-14 text-black px-4" placeholder="$ Amount You Want To Withdraw" type="text"
+            id="Withdraw-field">
+        </span>
+        <br><br>
+        <span class="pl-5">
+          <button class="bg-amber-400 px-8 py-3 rounded-2xl font-medium hover:bg-indigo-500" id="btn-Withdraw">
+            Withdraw
+          </button>
+        </span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer section -->
+  <footer class="bg-gray-800 text-white py-6 mt-12">
+    <div class="container mx-auto text-center">
+      <!-- Copyright and branding -->
+      <p class="text-lg font-semibold">Super Bank © 2025 | All Rights Reserved</p>
+      <p class="text-sm">Empowering financial transactions with simplicity & security.</p>
+
+      <!-- Navigation links for key pages -->
+      <div class="mt-4">
+        <a href="#" class="mx-2 hover:text-blue-400">Privacy Policy</a> |
+        <a href="#" class="mx-2 hover:text-blue-400">Terms of Use</a> |
+        <a href="#" class="mx-2 hover:text-blue-400">Contact Us</a>
+      </div>
+
+      <!-- Social media links -->
+      <div class="mt-5">
+        <span class="text-sm">Follow us:</span>
+        <a href="#" class="mx-2 hover:text-blue-400">Twitter</a>
+        <a href="#" class="mx-2 hover:text-blue-400">Facebook</a>
+        <a href="#" class="mx-2 hover:text-blue-400">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../JavaScript/Bank.js"></script>
+
+</body>
+
+</html>
